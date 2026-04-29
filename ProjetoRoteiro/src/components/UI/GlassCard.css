@@ -1,0 +1,12 @@
+.glass-card {
+  padding: 24px;
+  transition: var(--transition);
+  overflow: hidden;
+  position: relative;
+}
+
+.glass-card.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(212, 175, 55, 0.4); /* Gold subtle hover */
+}
